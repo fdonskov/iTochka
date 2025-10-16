@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93C2E5A72E9FD58E0082403A /* iTochkaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5A62E9FD58E0082403A /* iTochkaApp.swift */; };
+		93C2E5A92E9FD58E0082403A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5A82E9FD58E0082403A /* ContentView.swift */; };
+		93C2E5AB2E9FD5900082403A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C2E5AA2E9FD5900082403A /* Assets.xcassets */; };
+		93C2E5AD2E9FD5900082403A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5AC2E9FD5900082403A /* Persistence.swift */; };
+		93C2E5B02E9FD5900082403A /* iTochka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5AE2E9FD5900082403A /* iTochka.xcdatamodeld */; };
+		93C2E5D32E9FDCCB0082403A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5D22E9FDCCB0082403A /* CustomTabBar.swift */; };
+		93C2E5D72E9FDCEC0082403A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5D62E9FDCEC0082403A /* HomeView.swift */; };
+		93C2E5D92E9FDCFB0082403A /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5D82E9FDCFB0082403A /* NotificationsView.swift */; };
+		93C2E5DC2E9FDD2C0082403A /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5DB2E9FDD2C0082403A /* MessagesView.swift */; };
+		93C2E5DE2E9FDD3D0082403A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5DD2E9FDD3D0082403A /* ProfileView.swift */; };
+		93C2E5EE2EA15B360082403A /* SecondItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5ED2EA15B360082403A /* SecondItemScreen.swift */; };
+		93C2E5F02EA173060082403A /* VideoFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5EF2EA173060082403A /* VideoFeedViewController.swift */; };
+		93C2E5F22EA1732D0082403A /* VideoFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5F12EA1732D0082403A /* VideoFeedCell.swift */; };
+		93C2E5F42EA174850082403A /* VideosResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5F32EA174850082403A /* VideosResponseModel.swift */; };
+		93C2E5F62EA174A40082403A /* VideoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E5F52EA174A40082403A /* VideoService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93C2E5B62E9FD5900082403A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93C2E59B2E9FD58E0082403A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93C2E5A22E9FD58E0082403A;
+			remoteInfo = iTochka;
+		};
+		93C2E5C02E9FD5900082403A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93C2E59B2E9FD58E0082403A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93C2E5A22E9FD58E0082403A;
+			remoteInfo = iTochka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93C2E5A32E9FD58E0082403A /* iTochka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTochka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C2E5A62E9FD58E0082403A /* iTochkaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTochkaApp.swift; sourceTree = "<group>"; };
+		93C2E5A82E9FD58E0082403A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93C2E5AA2E9FD5900082403A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93C2E5AC2E9FD5900082403A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		93C2E5AF2E9FD5900082403A /* iTochka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iTochka.xcdatamodel; sourceTree = "<group>"; };
+		93C2E5B52E9FD5900082403A /* iTochkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTochkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C2E5BF2E9FD5900082403A /* iTochkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTochkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C2E5D22E9FDCCB0082403A /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		93C2E5D62E9FDCEC0082403A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		93C2E5D82E9FDCFB0082403A /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		93C2E5DB2E9FDD2C0082403A /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		93C2E5DD2E9FDD3D0082403A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		93C2E5ED2EA15B360082403A /* SecondItemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondItemScreen.swift; sourceTree = "<group>"; };
+		93C2E5EF2EA173060082403A /* VideoFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeedViewController.swift; sourceTree = "<group>"; };
+		93C2E5F12EA1732D0082403A /* VideoFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeedCell.swift; sourceTree = "<group>"; };
+		93C2E5F32EA174850082403A /* VideosResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosResponseModel.swift; sourceTree = "<group>"; };
+		93C2E5F52EA174A40082403A /* VideoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		93C2E5B82E9FD5900082403A /* iTochkaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iTochkaTests;
+			sourceTree = "<group>";
+		};
+		93C2E5C22E9FD5900082403A /* iTochkaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iTochkaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93C2E5A02E9FD58E0082403A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C2E5B22E9FD5900082403A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C2E5BC2E9FD5900082403A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93C2E59A2E9FD58E0082403A = {
+			isa = PBXGroup;
+			children = (
+				93C2E5DA2E9FDD180082403A /* iTochka */,
+				93C2E5B82E9FD5900082403A /* iTochkaTests */,
+				93C2E5C22E9FD5900082403A /* iTochkaUITests */,
+				93C2E5A42E9FD58E0082403A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93C2E5A42E9FD58E0082403A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5A32E9FD58E0082403A /* iTochka.app */,
+				93C2E5B52E9FD5900082403A /* iTochkaTests.xctest */,
+				93C2E5BF2E9FD5900082403A /* iTochkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93C2E5DA2E9FDD180082403A /* iTochka */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5E42EA025EA0082403A /* Resources */,
+				93C2E5E52EA025F20082403A /* Sources */,
+			);
+			path = iTochka;
+			sourceTree = "<group>";
+		};
+		93C2E5E42EA025EA0082403A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5AA2E9FD5900082403A /* Assets.xcassets */,
+				93C2E5AE2E9FD5900082403A /* iTochka.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93C2E5E52EA025F20082403A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5E62EA026250082403A /* Core */,
+				93C2E5E72EA026680082403A /* Utilities */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		93C2E5E62EA026250082403A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5A82E9FD58E0082403A /* ContentView.swift */,
+				93C2E5D22E9FDCCB0082403A /* CustomTabBar.swift */,
+				93C2E5A62E9FD58E0082403A /* iTochkaApp.swift */,
+				93C2E5AC2E9FD5900082403A /* Persistence.swift */,
+				93C2E5E82EA026810082403A /* HomeScreen */,
+				93C2E5E92EA0268D0082403A /* NotificationsScreen */,
+				93C2E5EA2EA0269E0082403A /* CreatePostScreen */,
+				93C2E5EB2EA026AF0082403A /* MessagesScreen */,
+				93C2E5EC2EA026BC0082403A /* ProfileScreen */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		93C2E5E72EA026680082403A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5F72EA174C10082403A /* Service */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		93C2E5E82EA026810082403A /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5D62E9FDCEC0082403A /* HomeView.swift */,
+				93C2E5FB2EA175070082403A /* FirstScreen */,
+				93C2E5FC2EA175120082403A /* SecondScreen */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		93C2E5E92EA0268D0082403A /* NotificationsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5D82E9FDCFB0082403A /* NotificationsView.swift */,
+			);
+			path = NotificationsScreen;
+			sourceTree = "<group>";
+		};
+		93C2E5EA2EA0269E0082403A /* CreatePostScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CreatePostScreen;
+			sourceTree = "<group>";
+		};
+		93C2E5EB2EA026AF0082403A /* MessagesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5DB2E9FDD2C0082403A /* MessagesView.swift */,
+			);
+			path = MessagesScreen;
+			sourceTree = "<group>";
+		};
+		93C2E5EC2EA026BC0082403A /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5DD2E9FDD3D0082403A /* ProfileView.swift */,
+			);
+			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
+		93C2E5F72EA174C10082403A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5F52EA174A40082403A /* VideoService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		93C2E5F82EA174D80082403A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5F32EA174850082403A /* VideosResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93C2E5F92EA174F00082403A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5F12EA1732D0082403A /* VideoFeedCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		93C2E5FA2EA174F70082403A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5F92EA174F00082403A /* Cells */,
+				93C2E5EF2EA173060082403A /* VideoFeedViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93C2E5FB2EA175070082403A /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5FA2EA174F70082403A /* Views */,
+				93C2E5F82EA174D80082403A /* Models */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		93C2E5FC2EA175120082403A /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5FD2EA1751E0082403A /* Views */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+		93C2E5FD2EA1751E0082403A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93C2E5ED2EA15B360082403A /* SecondItemScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93C2E5A22E9FD58E0082403A /* iTochka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C2E5C92E9FD5900082403A /* Build configuration list for PBXNativeTarget "iTochka" */;
+			buildPhases = (
+				93C2E59F2E9FD58E0082403A /* Sources */,
+				93C2E5A02E9FD58E0082403A /* Frameworks */,
+				93C2E5A12E9FD58E0082403A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTochka;
+			packageProductDependencies = (
+			);
+			productName = iTochka;
+			productReference = 93C2E5A32E9FD58E0082403A /* iTochka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93C2E5B42E9FD5900082403A /* iTochkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C2E5CC2E9FD5900082403A /* Build configuration list for PBXNativeTarget "iTochkaTests" */;
+			buildPhases = (
+				93C2E5B12E9FD5900082403A /* Sources */,
+				93C2E5B22E9FD5900082403A /* Frameworks */,
+				93C2E5B32E9FD5900082403A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93C2E5B72E9FD5900082403A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93C2E5B82E9FD5900082403A /* iTochkaTests */,
+			);
+			name = iTochkaTests;
+			packageProductDependencies = (
+			);
+			productName = iTochkaTests;
+			productReference = 93C2E5B52E9FD5900082403A /* iTochkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93C2E5BE2E9FD5900082403A /* iTochkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C2E5CF2E9FD5900082403A /* Build configuration list for PBXNativeTarget "iTochkaUITests" */;
+			buildPhases = (
+				93C2E5BB2E9FD5900082403A /* Sources */,
+				93C2E5BC2E9FD5900082403A /* Frameworks */,
+				93C2E5BD2E9FD5900082403A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93C2E5C12E9FD5900082403A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93C2E5C22E9FD5900082403A /* iTochkaUITests */,
+			);
+			name = iTochkaUITests;
+			packageProductDependencies = (
+			);
+			productName = iTochkaUITests;
+			productReference = 93C2E5BF2E9FD5900082403A /* iTochkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93C2E59B2E9FD58E0082403A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					93C2E5A22E9FD58E0082403A = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					93C2E5B42E9FD5900082403A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 93C2E5A22E9FD58E0082403A;
+					};
+					93C2E5BE2E9FD5900082403A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 93C2E5A22E9FD58E0082403A;
+					};
+				};
+			};
+			buildConfigurationList = 93C2E59E2E9FD58E0082403A /* Build configuration list for PBXProject "iTochka" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93C2E59A2E9FD58E0082403A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 93C2E5A42E9FD58E0082403A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93C2E5A22E9FD58E0082403A /* iTochka */,
+				93C2E5B42E9FD5900082403A /* iTochkaTests */,
+				93C2E5BE2E9FD5900082403A /* iTochkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93C2E5A12E9FD58E0082403A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C2E5AB2E9FD5900082403A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C2E5B32E9FD5900082403A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C2E5BD2E9FD5900082403A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93C2E59F2E9FD58E0082403A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C2E5DC2E9FDD2C0082403A /* MessagesView.swift in Sources */,
+				93C2E5F22EA1732D0082403A /* VideoFeedCell.swift in Sources */,
+				93C2E5DE2E9FDD3D0082403A /* ProfileView.swift in Sources */,
+				93C2E5AD2E9FD5900082403A /* Persistence.swift in Sources */,
+				93C2E5F42EA174850082403A /* VideosResponseModel.swift in Sources */,
+				93C2E5D32E9FDCCB0082403A /* CustomTabBar.swift in Sources */,
+				93C2E5EE2EA15B360082403A /* SecondItemScreen.swift in Sources */,
+				93C2E5F62EA174A40082403A /* VideoService.swift in Sources */,
+				93C2E5F02EA173060082403A /* VideoFeedViewController.swift in Sources */,
+				93C2E5A92E9FD58E0082403A /* ContentView.swift in Sources */,
+				93C2E5D72E9FDCEC0082403A /* HomeView.swift in Sources */,
+				93C2E5A72E9FD58E0082403A /* iTochkaApp.swift in Sources */,
+				93C2E5B02E9FD5900082403A /* iTochka.xcdatamodeld in Sources */,
+				93C2E5D92E9FDCFB0082403A /* NotificationsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C2E5B12E9FD5900082403A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C2E5BB2E9FD5900082403A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93C2E5B72E9FD5900082403A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93C2E5A22E9FD58E0082403A /* iTochka */;
+			targetProxy = 93C2E5B62E9FD5900082403A /* PBXContainerItemProxy */;
+		};
+		93C2E5C12E9FD5900082403A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93C2E5A22E9FD58E0082403A /* iTochka */;
+			targetProxy = 93C2E5C02E9FD5900082403A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93C2E5C72E9FD5900082403A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6U62DU83J9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93C2E5C82E9FD5900082403A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6U62DU83J9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93C2E5CA2E9FD5900082403A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U62DU83J9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fedor.iTochka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93C2E5CB2E9FD5900082403A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U62DU83J9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fedor.iTochka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93C2E5CD2E9FD5900082403A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U62DU83J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fedor.iTochkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTochka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iTochka";
+			};
+			name = Debug;
+		};
+		93C2E5CE2E9FD5900082403A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U62DU83J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fedor.iTochkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTochka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iTochka";
+			};
+			name = Release;
+		};
+		93C2E5D02E9FD5900082403A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U62DU83J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fedor.iTochkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iTochka;
+			};
+			name = Debug;
+		};
+		93C2E5D12E9FD5900082403A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U62DU83J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fedor.iTochkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iTochka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93C2E59E2E9FD58E0082403A /* Build configuration list for PBXProject "iTochka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C2E5C72E9FD5900082403A /* Debug */,
+				93C2E5C82E9FD5900082403A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C2E5C92E9FD5900082403A /* Build configuration list for PBXNativeTarget "iTochka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C2E5CA2E9FD5900082403A /* Debug */,
+				93C2E5CB2E9FD5900082403A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C2E5CC2E9FD5900082403A /* Build configuration list for PBXNativeTarget "iTochkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C2E5CD2E9FD5900082403A /* Debug */,
+				93C2E5CE2E9FD5900082403A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C2E5CF2E9FD5900082403A /* Build configuration list for PBXNativeTarget "iTochkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C2E5D02E9FD5900082403A /* Debug */,
+				93C2E5D12E9FD5900082403A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93C2E5AE2E9FD5900082403A /* iTochka.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93C2E5AF2E9FD5900082403A /* iTochka.xcdatamodel */,
+			);
+			currentVersion = 93C2E5AF2E9FD5900082403A /* iTochka.xcdatamodel */;
+			path = iTochka.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93C2E59B2E9FD58E0082403A /* Project object */;
+}
